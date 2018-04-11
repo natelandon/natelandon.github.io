@@ -1,0 +1,148 @@
+
+
+@media screen and (max-width: 767px) {
+}
+
+.hero-image, #HomeHero {
+    background-image: url("business-computer-connection-450035.jpg");
+    height: 500px;;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.hero-image1, #ResponsiveHero {
+    background-image: url("dusk.jpg");
+    height: 500px;;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Anton', sans-serif;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    text-shadow:  2px 2px black;
+
+}
+
+.hero-text1 {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Anton', sans-serif;
+    border-radius: 20px;
+    text-shadow:  2px 2px black;
+}
+
+ button {
+    
+     padding: 5px 10px 5px 10px;
+
+ }
+
+ .inside {
+     box-sizing: border-box;
+     padding: 5px 5px 5px 5px;
+     margin: 5px 5px 5px 5px;
+ }
+
+#cardy {
+    box-sizing: border-box;
+    border: solid 1px black;
+    border-radius: 5px;
+    background-color: aliceblue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+#cards {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#card-inner {
+    padding: 10px;
+}
+
+
+
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.Contact {
+    background-image: url('../images/pexels-photo-693811.jpeg');
+    height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+#contact {
+    background-image: url('../images/agriculture-clouds-country-461958.jpg');
+    height: 600px;
+}
+
+.row-eq-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.row-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.content {
+    height: 100%;
+    /*padding: 20px 20px 10px;*/
+
+}
+
+.inner {
+    box-sizing: border-box;
+    border: 1px solid black;
+    box-shadow: 3px 3px gray;
+}
+
+.projectdescription {
+    padding: 5px;
+
+}
+
+[class*="col-"] {
+    margin-bottom: 30px;
+}
+
+.parallax, #midbreak {
+  background-image: url('../images/grass-lake-lake-saiful-muluk-127753.jpg');
+  height: 400px;
+}
